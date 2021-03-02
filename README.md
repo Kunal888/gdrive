@@ -1,5 +1,7 @@
 ## Check app live on https://gdrive-eaaf4.web.app
 
+### Simple web app for sharing files.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
