@@ -1,0 +1,44 @@
+.filesview {
+  width: 70vw;
+}
+
+.filesview > p {
+  font-size: large;
+  font-weight: 400;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-bottom: 1px solid #777;
+}
+
+.fileCards {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.filesview_title {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  width: 70vw;
+  font-size: large;
+  font-weight: 400;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-bottom: 1px solid #777;
+}
+
+.filesview_title_left {
+  display: flex;
+}
+
+.filesview_title_right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filesview_title_right > p {
+  margin: 2rem;
+}

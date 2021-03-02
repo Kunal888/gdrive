@@ -1,0 +1,29 @@
+.fileCard {
+  border: 1px solid #777;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.2rem 0.05rem 0.05rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  height: 100%;
+  max-width: 20%;
+  height: auto;
+  text-align: center;
+}
+
+.fileCard > a {
+  cursor: pointer;
+  color: #222;
+  text-decoration: none;
+  background-color: #222;
+}
+
+.fileCard_top {
+  font-size: large;
+  font-weight: 500;
+}
+
+.fileCard_bottom {
+  font-size: medium;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  position: sticky;
+  background-color: #fff;
+  z-index: 1;
+  top: 0;
+}
+
+.header_logo {
+  width: 10vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header_logo > img {
+  height: 60%;
+  object-fit: contain;
+  margin-left: 1rem;
+}
+
+.header_logo > span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #777;
+  margin-left: 1rem;
+}
+
+.header_search {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_search > input {
+  align-items: center;
+  margin-left: 15rem;
+  min-width: 30vw;
+  height: 4vh;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 0.05rem solid black;
+  font-size: large;
+  background-color: #eee;
+}
+
+.header_icons {
+  width: 10vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.header_icons > img {
+  border-radius: 50%;
+  height: 60%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header_icons > button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: inset;
+  font-size: medium;
+  font-weight: 200;
+  background-color: #4382f4;
+  color: #fff;
+}
+
+.header_icons > button:hover {
+  background-color: #315eb3;
+  transform: scale(1.05);
+}
+
+.searchFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+
+.searchFile > p {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+
+.fileCards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}

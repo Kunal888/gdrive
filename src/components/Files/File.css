@@ -1,0 +1,49 @@
+.filesview_title {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  width: 95vw;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-bottom: 1px solid #777;
+}
+
+.filesview_title > a {
+  height: 100%;
+  text-decoration: none;
+  color: #333;
+}
+
+.filesview_title_left {
+  display: flex;
+}
+
+.filesview_title_right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filesview_title_right > p {
+  margin: 2rem;
+}
+
+.filesview_title_right > .deleteIcon {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.filesview_title_right > .deleteIcon:hover {
+  transform: scale(1.2);
+}
+
+.filesview_title_left > .downloadIcon {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.filesview_title_left > .downloadIcon:hover {
+  transform: scale(1.2);
+}

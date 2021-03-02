@@ -1,0 +1,13 @@
+.sidebar_item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-radius: 0 100px 100px 0;
+  justify-content: center;
+  /* border: 1px solid #777; */
+}
+
+.sidebar_item:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.08);
+}
